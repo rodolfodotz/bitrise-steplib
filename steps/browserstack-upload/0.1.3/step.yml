@@ -64,7 +64,7 @@ inputs:
     summary: Your Browserstack access key
     title: Browserstack access key
 outputs:
-- BROWSERSTACK_APP_URL: null
+- BROWSERSTACK_APP_URL: $BROWSERSTACK_APP_URL
   opts:
     description: "The app url returned by Browserstack App Automate with the following
       format \"bs://...\"\". \nUse this in your remote device tests, usually through
